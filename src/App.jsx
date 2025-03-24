@@ -10,8 +10,7 @@ const App = () => {
   return (
     <div className="w-full">
       <Navbar /> 
-
-      <main className="pt-[80px]">
+      <main className="pt-[60px]">
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
           <Header />
         </motion.div>
